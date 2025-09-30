@@ -3,6 +3,10 @@
     content: '';
     display: block;
 }
+.status{
+    display: block;
+    margin-bottom: 10px;
+}
 .square {
     background: #fff;
     border: 1px solid #999;
@@ -14,4 +18,14 @@
     margin-right: -1px;
     margin-bottom: -1px;
     text-align: center;
+}
+.game{
+    display: flex;
+}
+
+.game-border{
+    width: 200px;
+}
+.game-history{
+    flex: 1;
 }
